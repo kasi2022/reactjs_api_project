@@ -1,13 +1,10 @@
+// index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Homescreen from './homescreen';
-
+import Comp1 from './hooks/Statemanagement/comp1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Homescreen/>
-  </React.StrictMode>
+    
+    <Comp1 />
 );
-
-

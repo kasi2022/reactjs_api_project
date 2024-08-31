@@ -19,6 +19,7 @@ const initialState = {
 function Usereducter() {
     
     const [state, dispatch] = useReducer(reducer,initialState );
+    
     function handleIncrement() {
         dispatch({ type: "increment" });
       }

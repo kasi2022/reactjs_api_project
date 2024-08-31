@@ -1,5 +1,6 @@
 import React from 'react'
 import ClassComponent from './hooks/classComponent'
+import UseCallBack from './hooks/useCallBack'
 
 
 function Homescreen() {
@@ -8,9 +9,9 @@ function Homescreen() {
       {/* <Useref/> */}
       
       <h1>Use Call BAck </h1>
-      {/* <UseCallBack/> */}
+      <UseCallBack/>
       {/* <Usereducter/> */}
-      <ClassComponent/>
+      {/* <ClassComponent/> */}
 
     </div>
   )
